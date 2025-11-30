@@ -19,11 +19,17 @@
     border: 1px solid black;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     .container {
         display: grid;
-        grid-template-columns: column;
-        grid-column: 1fr 1fr;
-        width: calc(50%-20px);
+        grid-template-columns: 1fr 1fr;
+        width: calc(50%-5px);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+    display: flex;
+    flex-direction: column;
     }
 }
