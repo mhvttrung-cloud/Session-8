@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    gap: 20px;
+}
+
+.container {
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    dis
+    width: 50%;
+    text-align: center;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: grid;
+        grid-template-columns: column;
+        grid-column: 1fr 1fr;
+        width: calc(50%-20px);
+    }
+}
