@@ -17,14 +17,14 @@
     text-align: left;
 }
 
-/* .child {
+.child {
     border: 1px solid black;
 
-} */
+}
 
 @media screen and (max-width: 768px) {
     .grenfather {
-        display: flex;
+        display: grid;
         flex-direction: column;
 
     }

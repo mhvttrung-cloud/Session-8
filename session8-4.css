@@ -1,0 +1,49 @@
+* {
+    padding: 5px;
+    margin: 0;
+    box-sizing: border-box;
+}
+.homepage {
+    background-color: rgb(186, 183, 183);
+    color: aliceblue;
+    display: flex;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.homepage .top-right {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-right: 0;
+
+}
+.content {
+    background-color: darkgray;
+    height: 400px;
+    width: 1200px;
+    color: rgba(180, 10, 10, 0.2);
+    line-height: 400px;
+}
+
+.gioithieu .box-up {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.gioithieu .box-dow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+@media screen and (max-width: 992px) {
+    .gioithieu .box-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+}
