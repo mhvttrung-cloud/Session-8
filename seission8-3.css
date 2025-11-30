@@ -10,7 +10,7 @@
     background-color: aqua;
 }  
 
-.row, .row {
+.row {
     display: flex;
     flex-direction: column;
     width: 45%;
@@ -22,3 +22,10 @@
 
 } */
 
+@media screen and (max-width: 768px) {
+    .grenfather {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
