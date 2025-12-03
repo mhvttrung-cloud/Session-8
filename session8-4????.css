@@ -1,5 +1,5 @@
 * {
-    padding: 5px;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
@@ -14,11 +14,7 @@
     justify-content: center;
 }
 .homepage .top-right {
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    margin-right: 0;
-
+    
 }
 .content {
     background-color: darkgray;
@@ -37,13 +33,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
+    width: 100%;
+    text-align: center;
 }
 
 @media screen and (max-width: 992px) {
-    .gioithieu .box-up {
+    .gioithieu .box-up  {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    }
+    .box-dow {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
